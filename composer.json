@@ -1,0 +1,22 @@
+{
+    "name": "cloud-castle/xml-convertor",
+    "description": "convertor json-to-xml xml-to-json",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "CloudCastle\\Convertor\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Алексей Зорин",
+            "email": "zorinalexey59292@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "cloud-castle/file-system": "^1.0",
+        "cloud-castle/xml-generator": "^1.0"
+    }
+}
