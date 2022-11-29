@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace CloudCastle\Convertor;
+namespace CloudCastle\XmlConvertor;
 
 use stdClass;
 use SimpleXMLElement;
@@ -12,7 +12,7 @@ use CloudCastle\FileSystem\Json;
 /**
  * Класс GetXml
  * @version 0.0.1
- * @package CloudCastle\Convertor
+ * @package CloudCastle\XmlConvertor
  * @generated Зорин Алексей, please DO NOT EDIT!
  * @author Зорин Алексей <zorinalexey59292@gmail.com>
  * @copyright 2022 разработчик Зорин Алексей Евгеньевич.
@@ -22,6 +22,7 @@ final class Get
 
     /**
      * Получить xml из файла или строки
+     * 
      * @param string $data Путь к файлу или Строка xml
      * @return SimpleXMLElement
      */
@@ -38,6 +39,7 @@ final class Get
 
     /**
      * Получить объект stdClass из файла, объекта, массива или строки json
+     * 
      * @param mixed $data
      * @return stdClass
      */

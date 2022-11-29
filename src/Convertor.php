@@ -2,10 +2,10 @@
 
 declare(strict_types = 1);
 
-namespace CloudCastle\Convertor;
+namespace CloudCastle\XmlConvertor;
 
 use stdClass;
-use CloudCastle\Convertor\Get;
+use CloudCastle\XmlConvertor\Get;
 use CloudCastle\XmlGenerator\Xml;
 use CloudCastle\XmlGenerator\Config;
 use CloudCastle\XmlGenerator\XmlGenerator;
@@ -13,7 +13,7 @@ use CloudCastle\XmlGenerator\XmlGenerator;
 /**
  * Класс Convertor
  * @version 0.0.1
- * @package CloudCastle\Convertor
+ * @package CloudCastle\XmlConvertor
  * @generated Зорин Алексей, please DO NOT EDIT!
  * @author Зорин Алексей <zorinalexey59292@gmail.com>
  * @copyright 2022 разработчик Зорин Алексей Евгеньевич.
@@ -23,6 +23,7 @@ final class Convertor
 
     /**
      * Конвертировать содержимое xml файла или xml строку в строку json
+     * 
      * @param string $data Путь к xml файлу или xml строка
      * @return string Строка json
      */
@@ -34,6 +35,7 @@ final class Convertor
 
     /**
      * Сконвертировать содержание json файла, массива, объекта или json строки в строку xml
+     * 
      * @param mixed $data
      * @return Xml
      */

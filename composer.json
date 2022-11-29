@@ -1,11 +1,16 @@
 {
     "name": "cloud-castle/xml-convertor",
-    "description": "convertor json-to-xml xml-to-json",
+    "description": "convertor json-to-xml || xml-to-json",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "CloudCastle\\Convertor\\": "src/"
+            "CloudCastle\\XmlConvertor\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CloudCastle\\XmlConvertor\\Tests\\Unit\\":"tests/Unit/"
         }
     },
     "authors": [

@@ -1,5 +1,6 @@
 /vendor/
 /cache/
+/.vscode/
 /nbproject/
 composer.phar
 composer.lock
